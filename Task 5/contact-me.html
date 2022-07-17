@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Contact Me</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="left-side">
+            <a href="index.html">
+                <img src="assets/images/logo.png" alt="">
+            </a>
+            <ul>
+                <li>
+                    <a class="active" href="index.html">Home </a>
+                </li>
+                <li>
+                    <a href="myproject.html">My Project</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="right-side">
+            <a href="contact-me.html">Contact Me</a>
+        </div>
+    </nav>
+
+    <div style="
+        width: 400px;
+        margin: auto;
+        margin-top: 100px;
+    ">
+        <form action="">
+            <div style="margin-bottom: 20px;">
+                <label for="name" style="font-size: 20px; font-weight: 700;">Name</label>
+                <input id="name" type="text" required placeholder="input your name" style="
+                    width: 100%;
+                    box-sizing: border-box;
+                    padding: 8px;
+                    background-color: #f3f3f3;
+                    border: 1px solid #c4c4c4;
+                    border-radius: 8px;
+                    margin-top: 5px;
+                    
+                ">
+            </div>
+
+            <div style="margin-bottom: 20px;">
+                <label for="email" style="font-size: 20px; font-weight: 700;">Email</label>
+                <input id="email" type="email" style="
+                width: 100%;
+                box-sizing: border-box;
+                padding: 8px;
+                background-color: #f3f3f3;
+                border: 1px solid #c4c4c4;
+                border-radius: 8px;
+                margin-top: 5px;">
+            </div>
+
+            <div style="margin-bottom: 20px;">
+                <label for="phone" style="font-size: 20px; font-weight: 700;">Phone Number</label>
+                <input id="phone" type="text" style="
+                width: 100%;
+                box-sizing: border-box;
+                padding: 8px;
+                background-color: #f3f3f3;
+                border: 1px solid #c4c4c4;
+                border-radius: 8px;
+                margin-top: 5px;">
+            </div>
+
+            <div style="margin-bottom: 20px;">
+                <label for="subject" style="font-size: 20px; font-weight: 700;">Subject</label>
+                <select id="subject" style="
+                width: 100%;
+                box-sizing: border-box;
+                padding: 8px;
+                background-color: #f3f3f3;
+                border: 1px solid #c4c4c4;
+                border-radius: 8px;
+                margin-top: 5px;">
+                    <option>Lets Talk</option>
+                    <option>Lets Colaboration</option>
+                    <option>Lets Create Project</option>
+                </select>
+            </div>
+
+            <div style="margin-bottom: 20px;">
+                <label for="message" style="font-size: 20px; font-weight: 700;">Your Message</label>
+                <textarea id="message" cols="30" rows="10" style="
+                width: 100%;
+                box-sizing: border-box;
+                padding: 8px;
+                background-color: #f3f3f3;
+                border: 1px solid #c4c4c4;
+                border-radius: 8px;
+                margin-top: 5px;
+                resize: none;
+            " placeholder="input your message"></textarea>
+            </div>
+
+
+
+            <button type="button" onclick="getData()" style="
+                background-color: #ec4437;
+                color: white;
+                border: none;
+                padding: 8px 30px;
+                border-radius: 10px;
+                cursor: pointer;
+            ">Submit</button>
+        </form>
+    </div>
+</body>
+<script src="assets/js/index.js"></script>
+
+</html>

@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    background-color: #f4f3f3;
+    height: 7vh;
+    display: flex;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+nav .left-side {
+    flex: 50%;
+    padding-left: 90px;
+}
+
+nav .right-side {
+    flex: 50%;
+    justify-content: flex-end;
+    padding-right: 90px;
+}
+
+nav ul {
+    list-style: none;
+    margin-left: 40px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    color: #ec4437;
+    font-weight: 700;
+}
+
+nav .right-side a {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    background-color: #ec4437;
+    padding: 8px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.personal {
+    height: 93vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container-content {
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px rgb(79, 79, 79);
+}
+
+.container-content .left {
+    flex: 60%;
+}
+
+.container-content .right {
+    flex: 40%;
+}
+
+.container-content .sosmed i {
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+
+/* My project */
+
+
+/* My project Form */
+
+.myproject-form {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.myproject-form .form-container {
+    width: 500px;
+}
+
+.myproject-form .form-container h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.myproject-form form label {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.myproject-form form input,
+textarea,
+select {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    resize: none;
+}
+
+.myproject-form form textarea {
+    height: 250px;
+}
+
+.myproject-form form .input-myproject-image-group {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.myproject-form form .input-myproject-image-group label p {
+    font-size: 15px;
+}
+
+.myproject-form form .input-myproject-image-group label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.myproject-form form .button-group {
+    text-align: right;
+}
+
+.myproject-form form button {
+    margin-top: 50px;
+    padding: 8px 20px;
+    font-size: 17px;
+    background: #ec4d37;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.myproject hr {
+    border: 1px solid #dbdbdb;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* My project list */
+
+.myproject .myproject-list {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.myproject .myproject-list .myproject-list-item {
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #dbdbdb;
+    border-radius: 8px;
+    display: flex;
+}
+
+.myproject .myproject-list .myproject-list-item .myproject-image {
+    flex: 1;
+}
+
+.myproject .myproject-list .myproject-list-item .myproject-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.myproject .myproject-list .myproject-list-item .myproject-content {
+    padding-left: 20px;
+    flex: 2;
+}
+
+.myproject .myproject-list .btn-group {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.myproject .myproject-list .btn-group .btn-edit {
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 4px;
+    background: #dbdbdb;
+}
+
+.myproject .myproject-list .btn-group .btn-post {
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 4px;
+    background: #ec4d37;
+    color: #fff;
+}
+
+.myproject .myproject-list h1 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.myproject .myproject-list .detail-blog-content {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.myproject .myproject-list .myproject-list-item p {
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+
+/* My project Detail */
+
+.myproject-detail {
+    display: flex;
+    justify-content: center;
+}
+
+.myproject-detail-container {
+    width: 80%;
+    margin: 40px 0;
+}
+
+.myproject-detail-container img {
+    width: 100%;
+}
+
+.myproject-detail-container h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 120%;
+    margin-bottom: 15px;
+}
+
+.myproject-detail-container .author {
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+
+.myproject-detail-container p {
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: justify;
+}

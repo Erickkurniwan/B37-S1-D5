@@ -1,0 +1,99 @@
+<html>
+
+<head>
+    <title>Creating My Project Page</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav>
+        <div class="left-side">
+            <a href="index.html">
+                <img src="assets/images/logo.png" alt="">
+            </a>
+            <ul>
+                <li>
+                    <a class="active" href="index.html">Home </a>
+                </li>
+                <li>
+                    <a href="myproject.html">My Project</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="right-side">
+            <a href="contact-me.html">Contact Me</a>
+        </div>
+    </nav>
+
+    <!-- Blog -->
+    <!-- Form -->
+    <div class="myproject">
+        <div class="myproject-form">
+            <div class="form-container">
+                <form onsubmit="addMyproject(event)">
+                    <h1>Create Post My project</h1>
+                    <div>
+                        <label for="input-myproject-title">Title</label>
+                        <input type="text" id="input-myproject-title" />
+                    </div>
+
+                    <div>
+                        <label for="input-myproject-content">Content</label>
+                        <textarea id="input-myproject-content"></textarea>
+                    </div>
+                    <div>
+                        <label>Upload Image</label>
+                        <div class="input-myproject-image-group">
+                            <label for="input-myproject-image">
+                                <p>Attach File</p>
+                                <img src="assets/images/file.png" alt="file" />
+                            </label>
+                            <input type="file" id="input-myproject-image" hidden />
+                        </div>
+                    </div>
+                    <div class="button-group">
+                        <button type="submit">Post My project</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="test">
+        </div>
+        <hr class="line" />
+
+        <!-- List My project -->
+        <div id="contents" class="myproject-list">
+            <!-- dynamic content would be here -->
+            <!-- <div class="myproject-list-item">
+                <div class="myproject-image">
+                    <img src="assets/images/santino.jpg" alt="" />
+                </div>
+                <div class="myproject-content">
+                    <div class="btn-group">
+                        <button class="btn-edit">Edit Post</button>
+                        <button class="btn-post">Post My project</button>
+                    </div>
+                    <h1>
+                        <a href="myproject-detail.html" target="_blank">Bintang Film The Godfather James Caan Meninggal Dunia</a>
+                    </h1>
+                    <div class="detail-myproject-content">
+                        10 Jul 2021 22:30 WIB | Erick Kurniawan
+                    </div>
+                    <p>
+                        Jakarta, CNN Indonesia -- Bintang film The GodFather James Caan meninggal dunia saat berusia 82 tahun pada Rabu (6/7). Berkat The Godfather, Caan berhasil meraih nominasi Piala Oscar untuk aktor pendukung terbaik. Sebelumnya, dia juga membintangi serial
+                        televisi 80-an, Brian's Song. Caan mengawali kariernya di Hollywood pada 1960-an dengan perannya dalam film hit, seperti Irma La Douce, El Dorado dan The Rain People.
+                    </p>
+                    <div style="text-align: right;">
+                        <span style="font-size: 15px; color: grey;">1 hour ago</span>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+
+    </div>
+    <script src="assets/js/myproject.js"></script>
+</body>
+
+</html>
